@@ -2,7 +2,7 @@ const cheerio = require("cheerio");
 const puppeteer = require("puppeteer");
 
 ///// GET
-// : /api/scrape
+// : /api/scrape/steam
 exports.scrapeSteam = async (req, res, next) => {
 	console.log('running')
   const browser = await puppeteer.launch({
