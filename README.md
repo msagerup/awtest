@@ -2,59 +2,59 @@
 
 #
 
-- React project buildt on create-react-app
-
-A simple application that uses the most modern implementations.
-The user must log in with Auoth0. Once logged in, the user can upload a Excel Spread Sheet with Norwegian Org.Numbers. The app does a api call to Brønnesund and returns information about the companies.
-
+A application that uses steams auth, and scrapes steam games.
+The user must log in with Steams auth. Once logged in, the user can scrape stam games with a click of a button. The steam config url is in the server folder.
 
 ### The app uses:
 
 - create-react-app
 - express.js
-- Auth0
+- Steam auth
 - Material-UI
 - Redux
 - Sentry.io
 
-## Test file included :)
+## env files
 
-- Example file for upload is located in the `src/assets`
-  folder. You can use in the app to make a api call.
-- The file name is: `example.xlsx'
+- You will have to have a steam api to use the steam auth
+- Once you have the api key, create a file in the ./config folder in the server folder.
+
+- name the file config.env
+
+-in the config file place your api like this:
+STEAM_KEY=your api key
 
 ## How to install
 
 - Clone git repo
 
-`git clone https://github.com/msagerup/Artic_test.git `.
+`git clone https://github.com/msagerup/goodgamesTest.git `.
 
 - navigate to folder `client` folder.
 
-` cd Artic_test/client`.
+` cd goodgames/client`.
 
-- run npm install in the `client` folder.
+- run npm install and build in the `client` folder.
 
 `npm install `.
+`npm build `.
 
 - navigate to `server` folder.
 
-`cd Artic_test/server`.
+`cd goodgames/server`.
 
 - run npm install in the server `server` folder.
 
 `npm install `
 
-## Run the app
-
-- in the `client` folder, run:
-
-`npm run start`
+## Run the server
 
 - in the `server` folder, run:
 
 `npm run start`
 
-Make sure client runs on port `3000` and server runs on port `5000`
+- in the `server` folder, run:
 
-- That's it.
+`npm run server`
+
+- Thats is.
