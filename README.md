@@ -57,5 +57,5 @@ STEAM_KEY=your api key
 
 ## Open browser window on localport
 
-- in the `a browserwindow` on your local port that the server is running.
+- in a `browser window` on your open localhost on server port.
 - default is http://localhost:5000
