@@ -32,7 +32,7 @@ STEAM_KEY=your api key
 
 - navigate to folder `client` folder.
 
-` cd goodgames/client`.
+` cd goodgamesTest/client`.
 
 - run npm install and build in the `client` folder.
 
@@ -41,7 +41,7 @@ STEAM_KEY=your api key
 
 - navigate to `server` folder.
 
-`cd goodgames/server`.
+`cd goodgamesTest/server`.
 
 - run npm install in the server `server` folder.
 
@@ -51,10 +51,9 @@ STEAM_KEY=your api key
 
 - in the `server` folder, run:
 
-`npm run start`
-
-- in the `server` folder, run:
-
 `npm run server`
 
-- Thats is.
+## Open browser window on localport
+
+- in the `a browserwindow` on your local port that the server is running.
+- default is http://localhost:5000
