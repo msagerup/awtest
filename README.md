@@ -24,6 +24,8 @@ The user must log in with Steams auth. Once logged in, the user can scrape stam 
 -in the config file place your api like this:
 STEAM_KEY=your api key
 
+- https://steamcommunity.com/dev/
+
 ## How to install
 
 - Clone git repo
