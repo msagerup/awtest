@@ -39,7 +39,7 @@ STEAM_KEY=your api key
 - run npm install and build in the `client` folder.
 
 `npm install `.
-`npm build `.
+`npm run build `.
 
 - navigate to `server` folder.
 
