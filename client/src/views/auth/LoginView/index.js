@@ -15,7 +15,7 @@ export default function index() {
 					>
 						<Grid item>
 							<Typography variant='h1' style={{fontSize:'120px', color: 'white', textAlign:'center', fontWeight:'300', marginTop: '300px'}}>
-								Goodgame scrape
+								AW scrape
 							</Typography>
 							<Typography variant='h2' style={{fontSize:'20px', color: 'white', textAlign:'center', fontWeight:'100', letterSpacing: 20, marginBottom:'100px'}}>
 								scrape them games

@@ -30,7 +30,7 @@ STEAM_KEY=your api key
 
 - Clone git repo
 
-`git clone https://github.com/msagerup/goodgamesTest.git `.
+`git clone https://github.com/msagerup/aw.git `.
 
 - navigate to folder `client` folder.
 

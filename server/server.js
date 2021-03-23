@@ -7,7 +7,7 @@ const cors = require('cors')
 // Body Parser
 app.use(express.json());
 // Cookie Parser
-app.use(cookieParser());
+app.use(cookieParser()); 
 app.use(cors())
 
 // Rute files
