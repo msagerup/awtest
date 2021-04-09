@@ -7,6 +7,7 @@ import {
 
 export default function LoginButton() {
 	const { loginWithRedirect } = useAuth0();
+	//!!- Er h5 riktig semantikk i en log in knapp?
 
 		return (
 				<>
@@ -15,7 +16,7 @@ export default function LoginButton() {
 					}
 					style= {{background: '#fcba03', padding: '10px 50px', color: '#111'}}
 					>
-						<Typography variant='h5'>
+						<Typography>
 							Log In
 						</Typography>
 					</Button>

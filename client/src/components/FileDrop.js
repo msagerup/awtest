@@ -1,3 +1,5 @@
+//!!- Denne komponenten er veldig stor. Kanskje dele den opp? Også, 
+
 import React, { useState, useCallback} from 'react';
 import { useDropzone } from 'react-dropzone';
 import clsx from 'clsx';

@@ -25,6 +25,9 @@ export default function Steamlogin() {
 
   console.log(typeof signInLink);
 
+  //!!- Død kode
+  //!!- Link inni knapp vs link rundt knapp.
+
   return (
     <>
       {signInLink && (

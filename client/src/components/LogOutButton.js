@@ -4,6 +4,8 @@ import {
 	Button
 } from '@material-ui/core';
 
+//!!- Hvorfor har du fragment her?
+
 export default function LogOut() {
 	const { user } = useAuth0();
 	const { logout } = useAuth0();
@@ -16,7 +18,7 @@ export default function LogOut() {
 					 >
             Log Out
           </Button>
-				): ('')
+				): null
 				}
         </>
     )

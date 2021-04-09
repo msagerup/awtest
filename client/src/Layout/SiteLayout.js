@@ -1,3 +1,5 @@
+//!!- Er dette en komponent? Hvorfor er det stor forbokstav i mappen? Kanskje legge den i en container mappe?
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core';

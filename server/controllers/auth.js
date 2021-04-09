@@ -32,6 +32,7 @@ exports.steamAuth = async (req, res, next) => {
     };
     res.cookie("token", token, options);
     res.redirect(302, "http://localhost:5000/secure");
+    //!!- glemt å gjøre noe her?
     //...do something with the data
   } catch (error) {
     console.error(error);
