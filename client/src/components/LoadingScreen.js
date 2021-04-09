@@ -28,6 +28,8 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+//!!- Hva gjør Nprogress?
+
 export default function LoadingScreen() {
   const classes = useStyles();
 	useEffect(() => {

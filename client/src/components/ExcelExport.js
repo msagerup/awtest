@@ -8,6 +8,7 @@ const ExcelFile = ReactExport.ExcelFile;
 const ExcelSheet = ReactExport.ExcelFile.ExcelSheet;
 const ExcelColumn = ReactExport.ExcelFile.ExcelColumn;
 
+//!!- Noen indenteringsissues her (eslint / prettier)
 
 function ExcelExport({data}) {
 	const dataSet = data;

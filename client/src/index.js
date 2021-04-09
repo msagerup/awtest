@@ -30,7 +30,7 @@ Sentry.init({
   tracesSampleRate: 1.0,
 });
 
-
+//!!- Død kode
 
 // This will also work.
 // const onRedirectCallback = appState => {

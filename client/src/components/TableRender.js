@@ -49,6 +49,7 @@ function TableRender({ apiData }) {
 		[]
 	)
 
+	//!!- Hvorfor useMemo her?
 	const columns = React.useMemo(
 		() => [
 			{

@@ -64,6 +64,8 @@ const SteamView = () => {
     );
   }
 
+  //!!- Død kode
+
   return (
     <Container maxWidth={false} style={{ color: "white" }}>
       <Box display='flex'>

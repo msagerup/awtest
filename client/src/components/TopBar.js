@@ -21,6 +21,8 @@ const useStyles = makeStyles((theme) => ({
 export default function ButtonAppBar() {
   const classes = useStyles();
 
+  //!!- Død kode
+
   return (
     <div className={classes.root}>
       <AppBar position="static" style={{backgroundColor: '#fcba03'}}>

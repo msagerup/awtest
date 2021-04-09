@@ -9,6 +9,7 @@ exports.scrapeSteam = async (req, res, next) => {
     headless: true,
   });
   const page = await browser.newPage();
+  //!!- Burde params her komme i kallet? Evt være variabler?
   await page.goto(
     "https://store.steampowered.com/search/?maxprice=90&tags=5350&category1=998&supportedlang=norwegian"
   );
@@ -18,6 +19,9 @@ exports.scrapeSteam = async (req, res, next) => {
   });
 
   await autoScroll(page);
+  const result2 = [
+    {game, img, price, date},
+  ]
   const result = {
     game: [],
     img: [],
@@ -30,7 +34,7 @@ exports.scrapeSteam = async (req, res, next) => {
     $(".title").each(function () {
       result.game.push($(this).text());
     });
-    $(".col.search_capsule >img").each(function () {
+    $(".col.search_capsule >img").each(function (i) {
       result.img.push($(this).attr("src"));
     });
     $(".search_price").each(function () {
@@ -49,6 +53,7 @@ exports.scrapeSteam = async (req, res, next) => {
 
   async function autoScroll(page) {
     await page.evaluate(async () => {
+      //!!- Ubrukt reject (eslint / prettiers)
       await new Promise((resolve, reject) => {
         var totalHeight = 0;
         var distance = 100;
